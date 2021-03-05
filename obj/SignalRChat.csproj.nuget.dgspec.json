@@ -1,20 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\WALEED TRADERS\\source\\repos\\SignalRChat\\SignalRChat.csproj": {}
+    "C:\\Users\\ttahir\\source\\repos\\SignalRChat\\SignalRChat.csproj": {}
   },
   "projects": {
-    "C:\\Users\\WALEED TRADERS\\source\\repos\\SignalRChat\\SignalRChat.csproj": {
+    "C:\\Users\\ttahir\\source\\repos\\SignalRChat\\SignalRChat.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\WALEED TRADERS\\source\\repos\\SignalRChat\\SignalRChat.csproj",
+        "projectUniqueName": "C:\\Users\\ttahir\\source\\repos\\SignalRChat\\SignalRChat.csproj",
         "projectName": "SignalRChat",
-        "projectPath": "C:\\Users\\WALEED TRADERS\\source\\repos\\SignalRChat\\SignalRChat.csproj",
-        "packagesPath": "C:\\Users\\WALEED TRADERS\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\WALEED TRADERS\\source\\repos\\SignalRChat\\obj\\",
+        "projectPath": "C:\\Users\\ttahir\\source\\repos\\SignalRChat\\SignalRChat.csproj",
+        "packagesPath": "C:\\Users\\ttahir\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ttahir\\source\\repos\\SignalRChat\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\WALEED TRADERS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ttahir\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,6 +29,7 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -37,6 +41,13 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.Azure.SignalR": {
+              "target": "Package",
+              "version": "[1.4.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -55,7 +66,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     }
